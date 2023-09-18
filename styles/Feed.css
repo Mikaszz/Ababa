@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Poster {
+    @apply flex flex-row  space-x-4;
+  }
+  .description{
+    @apply w-[60vh] h-[17vh]
+  }
+  .Buttons{
+    @apply flex flex-row space-x-4 fixed mt-[28vh]
+  }
+  .Data{
+    @apply flex flex-row space-x-2
+  }
+  .aboutFilm{
+    @apply flex flex-row space-x-3 items-center justify-center
+  }
+  .{
+    @apply flex flex-row space-x-4 fixed mt-[28vh]
+  }

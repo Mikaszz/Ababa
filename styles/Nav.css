@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ .nav {
+    @apply flex justify-between overflow-visible bg-transparent w-full mb-16 pt-3 max-w-7xl mx-auto sm:px-16 px-6
+ }
